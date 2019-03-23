@@ -23,6 +23,7 @@ The "Hartoyo et al. (2019) datasets" folder contains the main and the most impor
 82x1000x22_best_paramsets_MCMC.mat : dataset of 1000 parameter sets sub-sampled from a million MCMC samples
 ```
 
+<img src="http://latex.codecogs.com/gif.latex?1+sin(x)" border="0"/>
 
 ## Code
 
