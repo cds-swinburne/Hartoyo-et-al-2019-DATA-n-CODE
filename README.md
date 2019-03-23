@@ -53,6 +53,7 @@ FigureSetup;
 FiguresBase(fparam, [figtype]);
 ``` 
 
+#### Input arguments:
    figtype = 1 -> spectral fits for selected subjects (default) <br>
    figtype = 2 -> single subject post and prior MCMC distributions <br>
    figtype = 3 -> KLD Box plots for all subjects <br>
