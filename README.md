@@ -32,8 +32,8 @@ The "Hartoyo et al. (2019) datasets" folder contains the main and the most impor
 The "Hartoyo et al. (2019) code" folder is a Matlab<sup>&reg;</sup> source code folder that provides implementation code along with supporting data required to reproduce the experimental results presented in Hartoyo et al. (2019).
 
 ### Setup
-1.	Download the "Hartoyo et al. (2019) code" folder 
-2.	Access the folder using Matlab<sup>&reg;</sup>
+1.	Clone or download this repository; 
+2.	Access the "Hartoyo et al. (2019) code" folder using Matlab<sup>&reg;</sup>.
 
 ### Run PSO-based random sampling
 ```
