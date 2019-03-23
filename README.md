@@ -34,7 +34,7 @@ The "Hartoyo et al. (2019) code" folder is a Matlab<sup>&reg;</sup> source code 
 ### Setup
 1.	Clone or download this repository 
 2.	Access the "Hartoyo et al. (2019) code" folder using Matlab<sup>&reg;</sup>
-3. Run methods/plots by executing the following Matlab<sup>&reg;</sup> commands
+3. Run methods and reproduce results/visualizations by executing the following Matlab<sup>&reg;</sup> commands
 
 ### Run PSO-based random sampling
 ```
