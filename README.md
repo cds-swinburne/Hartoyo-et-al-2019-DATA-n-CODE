@@ -23,6 +23,9 @@ The "Hartoyo et al. (2019) datasets" folder contains the main and the most impor
 82x1000x22_best_paramsets_MCMC.mat : dataset of 1000 parameter sets sub-sampled from a million MCMC samples
 ```
 
+#### The order of the 22 physiological parameteres: <br>
+<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}, \tau _{i}, \gamma _{e}, \gamma _{i}, \Gamma _{e}, \Gamma _{i}, N_{ee}^{\beta }, N_{ei}^{\beta }, N_{ie}^{\beta }, N_{ii}^{\beta }, p_{ee}, p_{ei}, h_{e}^{rest}, h_{i}^{rest}, h_{e}^{eq}, h_{i}^{eq}, S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}$" border="0" /></p>
+
 
 ## Code
 
