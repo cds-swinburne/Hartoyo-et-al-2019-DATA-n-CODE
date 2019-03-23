@@ -5,7 +5,7 @@ To examine the identifiability and sloppiness of the neural population model, we
 
 ## Datasets
 
-The â€œHartoyo et al. (2019) datasetsâ€ folder contains the main and the most important datasets used and generated in Hartoyo et al. (2019)
+The "Hartoyo et al. (2019) datasets" folder contains the main and the most important datasets used and generated in Hartoyo et al. (2019)
 
 ```
 82x73_target_spectra.mat : dataset of the 82 experimental spectra we fit the neural population model to
@@ -26,10 +26,10 @@ The â€œHartoyo et al. (2019) datasetsâ€ folder contains the main and th
 
 ## Code
 
-The â€œHartoyo et al. (2019) codeâ€ folder is a Matlab<sup>&reg;</sup> source code folder that provides implementation code along with supporting data required to reproduce the experimental results presented in Hartoyo et al. (2019).
+The "Hartoyo et al. (2019) code" folder is a Matlab<sup>&reg;</sup> source code folder that provides implementation code along with supporting data required to reproduce the experimental results presented in Hartoyo et al. (2019).
 
 ### Setup
-1.	Download the â€œHartoyo et al. (2019) codeâ€ folder 
+1.	Download the "Hartoyo et al. (2019) code" folder 
 2.	Access the folder using Matlab<sup>&reg;</sup>
 
 ### Run PSO-based random sampling
