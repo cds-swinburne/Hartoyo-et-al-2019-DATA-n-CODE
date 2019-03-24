@@ -44,16 +44,12 @@ RunPSObasedSampling;
 ### Run MCMC sampling
 ```
 BaseSetup;
-```
-```
 RunSequenceBase(S_c(indx_a,indx_f),freq(indx_f),prm,dev_a,psel,mparam);
 ```
 
 ### Plot figures
 ```
 FigureSetup;
-```
-```
 FiguresBase(fparam, [figtype]);
 ``` 
 
