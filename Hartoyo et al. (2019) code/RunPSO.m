@@ -180,10 +180,10 @@ err = vbest;
             cost = 10000;  % huge cost in case fixed point not found
         else
             if (is_chaotic == 1)
-                cost = 10000; % huge cost in case fixed of chaotic/unstable solution
+                cost = 1000; % huge cost in case fixed of chaotic/unstable solution
             else
                 if (physiological == 0)
-                    cost = 1000; % huge cost in case of parameters not in physiological-relevant range
+                    cost = 100; % huge cost in case of parameters not in physiological-relevant range
                 else
                     %--- compute the model spectrum
                     freq = (0:80)'/4;
@@ -196,12 +196,12 @@ err = vbest;
                     %--- compute the normalization/scaling factor
                     num = 0;
                     for k=9:81
-                        num = num + spec(k)*target_spec(k)*0.1;
+                        num = num + spec(k)*target_spec(k)*0.25;
                     end
                     
                     den = 0;
                     for j=9:81
-                        den = den + spec(j)*spec(j)*0.1;
+                        den = den + spec(j)*spec(j)*0.25;
                     end
                     
                     g = num/den;
