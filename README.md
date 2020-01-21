@@ -1,7 +1,7 @@
 # Implementation of methods employed and datasets used in Hartoyo et al. (2019)
 To examine the identifiability and sloppiness of the neural population model, we fit it to an EEG spectrum and estimate the posterior distribution over the 22 unknown parameters. We then characterize the properties of this distribution to diagnose the signatures of unidentifiability and sloppiness. To ensure that our results are not specific to a particular fitting algorithm, we use two independent methods: particle swarm optimization (PSO) and Markov chain Monte Carlo (MCMC). To ensure that our results are not specific to a given individual, we estimate the 22 posterior distributions, using both methods, for each of the 82 different EEG spectra. We then outline the two fitting schemes, focusing on how we use them to sample from the 22-dimensional posterior distribution. Finally, we describe use of the Kullback-Leibler divergence (KLD) to summarize how much we learned about individual parameters, and the Fisher information matrix (FIM), to assess the sloppiness and identifiability of the model. A full description of the techniques is described in the following manuscript:
 
-"<b>Parameter estimation and identifiability in a neural population model for electro-cortical activity</b>" by Agus Hartoyo, Peter Cadusch, David Liley, and Damien Hicks, doi: https://doi.org/10.1101/492504 
+"<b>Parameter estimation and identifiability in a neural population model for electro-cortical activity</b>" by Agus Hartoyo, Peter Cadusch, David Liley, and Damien Hicks, doi: https://doi.org/10.1371/journal.pcbi.1006694 
 
 ## Datasets
 
